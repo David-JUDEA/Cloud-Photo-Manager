@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Galery</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>The Galery</h1>
+
+      <div class="upload-section">
+        <label for="fileInput" class="custom-file-upload">Upload</label>
+        <input id="fileInput" type="file" />
+        <span style="display: inline-block; width: 150px"></span>
+        <button onclick="uploadImage()">Send</button>
+      </div>
+
+      <p id="statusMessage"></p>
+
+      <div class="gallery" id="gallery">
+        <p>Loading images...</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
