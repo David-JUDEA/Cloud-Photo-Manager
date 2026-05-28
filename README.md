@@ -253,3 +253,7 @@ aws --endpoint-url=http://localhost:4566 s3 mb s3://cloud-photo-bucket
 ```
 
 [To summary](#summary)
+
+---
+
+_Project realized for the basics of cloud computing module - ETNA._
