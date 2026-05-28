@@ -1,3 +1,5 @@
+![banner](./assets/Banner-Cloud.svg)
+
 # Cloud-Photo-Manager
 
 This project is a technical demonstration that simulates an AWS Cloud environment directly on a Mac, without the need to create an AWS account or use a Linux virtual machine.
